@@ -4,8 +4,9 @@
   // Documentation: http://www.jshint.com/docs/
   "browser": true,
   "esnext": true,
-  "globals": {},
-  "globalstrict": false,
+  "globals": { "process": false, "require": false, "console": false, "it":false, "describe":false },
+  "globalstrict": true,
+  "indent": 2,
   "laxcomma": true,
   "node": true,
   "quotmark": true,
