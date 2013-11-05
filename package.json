@@ -1,18 +1,19 @@
 {
-  "name": "omnipod-parser",
-  "version": "0.1.0",
-  "description": "omnipod-parser",
-  "main": "hello-world-server.js",
+  "name": "mmcsv",
+  "version": "0.0.1",
+  "description": "Convert omnipod data to a stream",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+    "test": "make test"
   },
-  "repository": "",
-  "keywords": [
-    "Node.js",
-    "Eclipse",
-    "Nodeclipse"
-  ],
+  "repository": "https://github.com/dpurohit/omnipod-parser.git",
   "author": "",
-  "license": "BSD",
-  "readmeFilename": "README.md"
+  "license": "",
+  "dependencies": {
+    "event-stream": "~3.0.16"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "should": "~2.0.2"
+  }
 }
